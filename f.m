@@ -8,4 +8,4 @@ else
     l=Nox-del/2;
 end
 L = sum(l);
-res = (norm(A*x-b,2)/2) + (mu*L);
+res = (norm(A*x-b,2)^2/2) + (mu*L);
